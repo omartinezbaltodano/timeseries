@@ -19,7 +19,6 @@ IRF      = NaN(T,1);
 
 
 for i=1:T
-%    y(i+1,1)  = phi*y(i,1)+e(i,1)
     IRF(i,1)  = phi^(i) 
 end 
 
